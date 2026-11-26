@@ -1,6 +1,8 @@
 # Machine Learning Assignment 2
 BITS ID: 2026CT05075
+
 Course: Machine Learning
+
 Task: Classification model development and comparison
 
 1. Problem Statement

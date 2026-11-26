@@ -8,6 +8,7 @@ Task: Classification model development and comparison
 # 1. Problem Statement
 The objective is to build and compare five classification models on a public dataset. All models use the same stratified 80:20 train-test split and are evaluated using Accuracy, AUC, Precision, Recall, F1 Score, and Matthews Correlation Coefficient (MCC).
 
+
 The models are:
 
 Logistic Regression
@@ -15,6 +16,8 @@ Decision Tree
 k-Nearest Neighbors (kNN)
 Gaussian Naive Bayes
 Random Forest (Ensemble)
+
+
 # 2. Dataset Description
 The Digits dataset is used for this multiclass classification problem. It contains handwritten digit images represented by numerical pixel-intensity values.
 

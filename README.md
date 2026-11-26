@@ -1,8 +1,7 @@
 # Machine Learning Assignment 2: Hotel Booking Demand Classification
 
 **Student Name / BITS ID:** 2026ct05075  
-**Course:** M.Tech (AIML / DSE) - Machine Learning  
-**Submission Deadline:** 27-Nov-2026
+**Course:** M.Tech-AIML - Machine Learning  
 
 ---
 

@@ -27,7 +27,7 @@ The objective of this project is to predict hotel booking cancellations using hi
 - **Data Splitting:** 80:20 stratified train-test split (using a fixed random seed of `42`) to maintain the class distribution ratio in both sets.
 
 ## 3. GitHub Repository Link
-- **GitHub Repository:** [Insert your GitHub repository link here]
+- **GitHub Repository:** https://github.com/2026ct05075/2026CT05075-ML-Assignment-2
 
 ## 4. Models Used & Comparative Performance
 We trained and evaluated 5 ML classification models using the same preprocessed datasets:

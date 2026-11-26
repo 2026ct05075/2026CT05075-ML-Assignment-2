@@ -5,7 +5,7 @@ Course: Machine Learning
 
 Task: Classification model development and comparison
 
-1. Problem Statement
+# 1. Problem Statement
 The objective is to build and compare five classification models on a public dataset. All models use the same stratified 80:20 train-test split and are evaluated using Accuracy, AUC, Precision, Recall, F1 Score, and Matthews Correlation Coefficient (MCC).
 
 The models are:
@@ -15,7 +15,7 @@ Decision Tree
 k-Nearest Neighbors (kNN)
 Gaussian Naive Bayes
 Random Forest (Ensemble)
-2. Dataset Description
+# 2. Dataset Description
 The Digits dataset is used for this multiclass classification problem. It contains handwritten digit images represented by numerical pixel-intensity values.
 
 Item	Description
@@ -44,10 +44,10 @@ Applied StandardScaler to Logistic Regression and kNN because these models are s
 Did not apply categorical encoding because all 64 input features are numerical.
 Fitted all learned preprocessing steps only on the training data through scikit-learn pipelines.
 Exported the holdout test set as test_data.csv.
-3. GitHub Repository Link
+# 3. GitHub Repository Link
 https://github.com/2026ct05075/2026ct05075-ML-Assignment-2
 
-4. Models Used
+# 4. Models Used
 Model Configurations
 Model	Configuration
 Logistic Regression	max_iter=3000, random_state=5019; median imputation and standard scaling
@@ -77,7 +77,7 @@ kNN	Achieved the highest Accuracy at 0.9750, Precision at 0.9755, Recall at 0.97
 Naive Bayes	Achieved 0.8111 Accuracy, 0.9772 AUC, 0.8111 F1, and 0.7939 MCC. Performance was constrained by Gaussian and conditional-independence assumptions, which are restrictive for correlated image pixels.
 Random Forest (Ensemble)	Achieved 0.9667 Accuracy, the highest AUC at 0.9994, 0.9666 F1, and 0.9631 MCC. It substantially outperformed the single Decision Tree, demonstrating the variance-reduction benefit of ensemble learning.
 Overall Winner for the Dataset	kNN is the overall winner because it achieved the highest Accuracy, Precision, Recall, F1, and MCC. Random Forest achieved the highest AUC, but kNN provided the strongest overall classification performance across the required metrics.
-5. Execution Instructions
+# 5. Execution Instructions
 Google Colab
 Open Google Colab.
 Select File → Upload notebook.
@@ -86,7 +86,7 @@ Select Runtime → Run all.
 Download the completed notebook and generated artifacts before the Colab session ends.
 A GPU is not required. All five models run on CPU.
 
-6. Generated Files
+# 6. Generated Files
 After successful execution, the following artifacts are created:
 
 2026ct05075-ML-Assignment-2/
